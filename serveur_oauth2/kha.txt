@@ -1,0 +1,25 @@
+	
+<<script> 
+	
+function init(){
+	
+$('form').hide()
+
+$('#form1').show();
+
+}
+
+function traitement1(){
+ 
+$('#envoi1').submit(function(){ traitementAjax1() }) ;
+
+
+$('#form1').hide(); $('#form2').show(); 
+ 
+}
+ 
+et ainsi de suite....
+ 
+pour le traitement AJAX
+ 
+tu construis un objet JSON grace au formulaire et l'envoie en POST par AJAX

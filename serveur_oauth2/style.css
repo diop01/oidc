@@ -1,0 +1,12 @@
+h1{
+	background-color: #D83F3D;
+	text-align: center;
+}
+
+
+input[type=submit], input[type=reset] {
+ width:1250px;
+ margin: 8px auto 0;
+ box-shadow:1px 1px 1px #D83F3D;
+ text-align: center;
+ }
