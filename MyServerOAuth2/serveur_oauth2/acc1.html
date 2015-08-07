@@ -1,0 +1,103 @@
+
+<html>
+	<head>
+		<title>Access with user credentials</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta charset=utf-8" />
+	</head>
+	<body>
+		<div id="conteneur">
+		
+		<!-- Page accueil -->
+		<div id="accueil">
+		<h1>Accueil</h1>
+		<div onclick="connexion();"><h1>Resource Owner Password Credentials Grant</h1></div>
+		<div onclick="connexionWithCode();"><h1>Resource Owner Grant Code</h1></div>
+		</div>
+		
+		<!-- Page application connexion with credentials-->
+		<div id="connexion" style="display:none">
+		<h1>Access with user credentials</h1>
+		<div>
+		<form id="formcom" >
+		
+			<p>username<input type="text" id="username"  /> </p>
+			<p>password<input type="password" id="password"  /></p>
+			<div id="loader" style="display:none"><img src="loader.gif"  alt="loader" /> </div>
+			
+		</form>
+		<input type="submit" onclick="connecterClient();" value="envoyer" />
+		</div>
+		</div>
+		
+		<!-- Page application connexion with code-->
+		<div id="connexionWithCode" style="display:none" >
+		  
+		  <div>
+		   <h1>Access with code</h1>
+		   </div>
+		   <div data-role="content">
+             <input type="submit" onclick="seConnecter()" value="Authorize to se connecter avec mon compte" />
+		    </div> 
+			 <div class="headerViolet" data-role="header">
+             
+			</div>
+			<div data-role="content">
+			<style>
+			iframe { /* iframe from facebook.com */
+			width:300px;
+			height:150px;
+			position:absolute;
+			top:1; left:0;
+			filter:alpha(opacity=50); /* in real life opacity=0 */
+			opacity:0.5;
+			}
+			</style>
+
+			<div>Click on the link to get rich now:</div>
+            
+			
+			
+			
+			<iframe src="http://localhost/"></iframe>
+
+			<a href="" target="_blank" style="position:absolute;top:95px;left:20px;">CLICK ME!</a>
+
+			<div>You'll be rich for the whole life!</div>
+
+
+		    </div>
+		
+		</div>
+		<!--Page application authentification-->
+		<div id="authentification" style="display:none">
+		<h1>authentification</h1>
+		<form id="formcom1">
+         Login:
+        <p>username<input type="text" id="username1"/></p>
+        <p>password<input type="password" id="password1" /></p>
+		 
+        </form>
+        <input type="submit" onclick="authentifierClientWithScopeAmi()" value="Authorize to see list ami" /> 
+		<input type="submit" onclick="authentifierClientWithScopeInfo()" value="Authorize to see contact info" />
+        </div>
+		
+		<!-- Page ressources with token -->
+        <div id="resources"  style="display:none">
+        <h1>Access ressources with token</h1>
+        <form id="form_connexion">
+        <p>Login:</p>
+        </form>
+        <input type="submit" onclick="getResources()" value="get  List  ami" />
+		<input type="submit" onclick="getResourcesInfo()" value="get info contact" />
+        </div>
+		
+		<!--     Traitement jquery    -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/sha256.js"></script>
+		
+		<script type="text/javascript" src="traitement.js"> </script>
+		
+		
+	</body>
+</html>

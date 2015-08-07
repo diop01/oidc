@@ -1,0 +1,9 @@
+Database: oidc 
+
+User: adminUX2lqkD 
+
+
+Password: P9z2t7MQSCL3
+
+/****************************/
+git clone ssh://558bc1dbe299d9cdc700011d@oidc-expprot.kermit.rd.francetelecom.fr/~/git/oidc.git/
