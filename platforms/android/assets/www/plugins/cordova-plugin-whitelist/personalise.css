@@ -1,0 +1,462 @@
+/*--------------------------------- personalise.css ---------------------------------*/
+
+/*
+
+.ui-page .ui-header {
+ background: #636 !important;
+}
+
+#home1 {
+  position:absolute;
+  top:0;
+  left:0;
+  text-align:center;
+  width:100%; height:100%;
+  display:none;
+}
+*/
+
+#ptsmo {
+    margin-top:0;
+}
+
+* {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+input, a, select, textarea {
+   -moz-user-select: text;
+  -webkit-user-select: text;
+  -ms-user-select: text;
+  -o-user-select: text;
+  user-select: text;
+}
+
+#home2 label {
+  color: white;
+}
+
+#home3 label {
+  color: white;
+}
+
+#home4 label {
+  color: white;
+}
+
+#home5 label {
+  color: white;
+}
+
+label {
+  color: rgb(58, 0, 42);
+}
+
+#tabinscription label {
+  color: #333;
+}
+
+@font-face {
+  font-family: 'Century Gothic'; src: url('century_gothic.eot');
+  src: url('century_gothic.eot?#iefix') format('embedded-opentype'), url('century_gothic.svg#Century Gothic')   format('svg'), url('century_gothic.woff') format('woff'), url('century_gothic.ttf') format('truetype');
+  font-weight: normal; font-style: normal;
+}
+
+@font-face {
+      font-family: 'moregular';
+    src: url('mo-webfont.eot');
+    src: url('mo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('mo-webfont.woff') format('woff'),
+         url('mo-webfont.ttf') format('truetype'),
+         url('mo-webfont.svg#moregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+   font-family: 'Century Gothic' !important;
+}
+
+#tutorial {
+    background:rgba(0, 0, 0, 0.5);
+    position:absolute;
+    height:100%;
+    width:100%;
+    display:none;
+    z-index:1;
+}
+
+#descriptionmassageC {
+    margin-top: 41px;
+}
+
+#descriptionosteoC {
+    margin-top: 41px;
+}
+
+#descriptionmassage .headerViolet {
+    position: fixed;
+    width: 100%;
+}
+
+#descriptionosteo .headerViolet {
+    position: fixed;
+    width: 100%;
+}
+
+#tutorial2 {
+    display:none;
+    z-index:50 !important;
+    position:absolute;
+    left:0;
+    padding-top:7px;
+}
+
+#connexion .ui-btn-text {
+	padding-left:0 !important;
+}
+
+#creationcompte .ui-btn-text {
+	padding-left:0 !important;
+}
+
+.logo-mo{
+  font-family: "moregular" !important;
+  font-size: 1.6em;
+  padding-left: 0.15em;
+  padding-right: 0.15em;
+  color:#3A002A;
+}
+
+.imagedemo1 {
+  position:absolute;
+  bottom:27%;
+  right:9%;
+  max-height:19.5% !important;
+}
+
+.imagedemo2 {
+position: absolute;
+top: 3%;
+width: 114px;
+margin: auto;
+margin-top: 46px;
+left: 0;
+right: 0;
+}
+
+.imagedemo3 {
+width: 100px !important;
+top: 107px;
+  position:absolute;
+  margin:auto;
+  left:0;
+  right:0;
+}
+
+.imagedemo4 {
+  position:absolute;
+  bottom:65%;
+  left:10%;
+  margin-right:25%;
+  max-height:70% !important;
+  max-width:72% !important;
+  border: 1px solid gray;
+}
+
+.imgCompte {
+  float: left;
+  position: absolute;
+  vertical-align:middle;
+  height: 53px;
+}
+
+.description {
+  text-align: right;
+  float: right;
+  right: 5%;
+  margin-top:10px;
+  position: absolute;
+  color: #FFFFFF;
+}
+
+.tel-mail {
+  text-align: right;
+	padding:0;
+	margin:0;
+  right: 5%;
+  position: absolute;
+  color: #FFFFFF;
+}
+
+.MassageBien {
+  margin-top: 40%;
+  color: #FFFFFF;
+}
+
+.Tarifs {
+/*  border: 5px solid red;*/
+	position:fixed;
+	bottom:5px;
+  width:98%;
+}
+
+.motif {
+ margin-top: 5%;
+/* margin-left: 13.7%;*/
+}
+
+.Osteopathie {
+ margin-top: 5%;
+ color: #FFFFFF;
+}
+/*
+
+.tarifs {
+ margin-bottom: : 30%;
+ margin-left: 5px;
+ margin-right: 5px;
+ position: absolute;
+ display: inline-block;
+ color: #FFFFFF;
+ border: 5px solid blue;
+}
+*/
+
+.leTarif {
+color: #FFF;
+position: absolute;
+top: 41px;
+left: 0;
+right: 0;
+bottom: 0;
+margin-top: auto;
+margin-bottom: auto;
+padding: 0;
+padding-top: 11px;
+}
+
+.leTarif * {
+    border:none;
+}
+
+.leTarif td {
+background: rgb(109, 87, 114);
+color:white;
+}
+
+.tel {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.helpdemo {
+	position:absolute;
+	top:267px;
+  margin-left: 78%;
+}
+
+.ui-page {
+  background: white ;
+  background-size: cover;
+  color:black;
+}
+
+.btn1 {
+
+}
+
+.rdv {
+  margin-top: 5%;
+  color: rgb(58, 0, 42);
+  font-family: Century Gothic;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.btn2 {
+  margin-top: 10%;
+}
+
+.btn3 {
+  margin-top: 8%;
+}
+
+.btn4 {
+  margin-top: 8%;
+}
+
+.textjustifie label {
+	font-size:2.5vh;
+}
+
+.textjustifie .detail {
+	font-size:2.5vh;
+}
+
+@media only screen
+and (max-width : 600px) {
+
+.textjustifie h2 {
+margin-bottom: 5px;
+}
+
+.textjustifie label {
+	font-size:12px;
+}
+
+.textjustifie .detail {
+	font-size:12px;
+    color: rgb(58, 0, 42);
+}
+}
+
+.textjustifie {
+  font-family: Century Gothic;
+  vertical-align:middle;
+  text-align: center;
+  position: absolute;
+  bottom: 15%;
+	left: 0;
+	padding:0;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.textjustifie h2 {
+	font-size:20px;
+    color: rgb(58, 0, 42);
+}
+
+.textjustifie2 {
+  font-family: Century Gothic;
+  text-align: center;
+  color: rgb(58, 0, 42);
+
+}
+
+.textjustifie2 h2 {
+	font-size:20px;
+}
+.suiv .ui-btn-inner {
+border:none;
+}
+
+div.ui-input-text{
+background: rgba(64, 38, 55, 0.75);
+height:35px;
+}
+
+.infotd div.ui-input-text{
+height:70px;
+}
+
+#creation label.form_col{
+font-size:14px;
+}
+#creation2 label.form_col{
+font-size:14px;
+}
+#creation3 label.form_col{
+font-size:14px;
+}
+#creation3 div.ui-input-text, #modifier_carte div.ui-input-text, #ajouter_carte div.ui-input-text{
+background: rgba(182, 228, 189, 1);
+}
+textarea {
+  background: #321A32;
+  resize:none;
+  color: #FFFFFF;
+}
+
+.headerViolet {
+  background-image: -webkit-gradient(linear, left top, left bottom, from( #3c3c3c /*{a-bar-background-start}; */
+background-image: -ms-linear-gradient( #3c3c3c /*{a-bar-background-start}*/, #111 /*{a-bar-background-end}*/);
+background-image: -o-linear-gradient( #3c3c3c /*{a-bar-background-start}*/, #111 /*{a-bar-background-end}*/);
+
+}
+
+.form_col {
+ color: #FFFFFF;
+text-align: right !important; margin-right: 26px;
+}
+
+.comment {
+  margin-top: 10%;
+  margin-left: 30%;
+  color: #FFFFFF;
+}
+
+.comment1 {
+  margin-top: 19%;
+  margin-left: 22%;
+  color: #FFFFFF;
+}
+
+.etoile {
+ margin-top: 20%;
+ margin-left: 30%;
+}
+
+.imgCalright {
+  position:absolute;  left:5%;  margin-top: 0.51%;
+}
+
+.imgCalLeft {
+  position:absolute;  right:5%;  margin-top: 0.51%;
+}
+
+.clarifierCal {
+ margin-left: 10%;
+ color: #FFFFFF;
+}
+
+.ui-body-c, .ui-overlay-c {
+    text-shadow: none;
+    font-size: 16px;
+}
+
+.accueilHaut {
+  margin-top:  5%;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100% auto;
+  display: inline-block;
+}
+
+.FloatLeftTarif {
+  float: left;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.FloatRightTarif {
+  float: right;
+  text-align: right;
+  vertical-align: middle;
+}
+
+
+.droite {
+  text-align: right;
+  float: right;
+}
+
+#choisirdescriptionC {
+	position: absolute;
+	top: 50px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 495px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#tarifs {
+	min-height: 600px;
+}
